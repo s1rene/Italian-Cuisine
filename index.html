@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Cuisine</title>
+</head>
+
+<body id="home">
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <img src="img/logo.png" alt="Logo">
+                <ul class="header-inner__list">
+                    <li class="header-list__item">
+                        <a href="#home" class="header-list__link">Home</a>
+                    </li>
+                    <li class="header-list__item">
+                        <a href="#menu" class="header-list__link">Menu</a>
+                    </li>
+                    <li class="header-list__item">
+                        <a href="#about-us" class="header-list__link">About us</a>
+                    </li>
+                    <li class="header-list__item">
+                        <a href="#order" class="header-list__link">Order online</a>
+                    </li>
+                    <li class="header-list__item">
+                        <a href="#reservation" class="header-list__link">Reservation</a>
+                    </li>
+                    <li class="header-list__item">
+                        <a href="#contact" class="header-list__link">Contact us</a>
+                    </li>
+                </ul>
+                <div class="header-action">
+                    <div class="header-actions__cart">
+                        <img src="img/svg/Cart.svg" alt="">
+                    </div>
+                    <button class="header-btn">Log in</button>
+                    <button class="header-modal__btn visually-hidden" id="openModalBtn">
+                        <img src="img/svg/modal-btn.svg" alt="Open menu">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+
+        <section class="main" id="about-us">
+            <div class="container">
+                <div class="main-inner">
+                    <div class="main-content">
+                        <button class="main-about">Restauran</button>
+                        <h1 class="main-title">Italian Cuisine</h1>
+                        <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales senectus
+                            dictum
+                            arcu sit tristique donec eget.</p>
+                        <div class="main-actions">
+                            <button class="main-btn orange">Order now</button>
+                            <button class="main-btn green">Reservation</button>
+                        </div>
+                    </div>
+                    <div class="main-photo">
+                        <img src="img/main-bg.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="welcome">
+            <div class="container">
+                <div class="welcome-inner">
+                    <div class="welcome-inner__photo">
+                        <img src="img/welcome-dish.png" alt="Dish">
+                    </div>
+                    <div class="welcome-inner__content">
+                        <h1 class="welcome-inner__title">Welcome to <br> <span
+                                class="welcome-inner__span">delizioso</span>
+                        </h1>
+                        <p class="welcome-inner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </p>
+                        <button class="main-btn orange">See our menu</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu" id="menu">
+            <div class="container">
+                <h1 class="menu-title">Our popular menu</h1>
+                <div class="menu-category">
+                    <button class="category__btn active">All catagory</button>
+                    <button class="category__btn">Dinner</button>
+                    <button class="category__btn">Lunch</button>
+                    <button class="category__btn">Dessert</button>
+                    <button class="category__btn">Drink</button>
+                </div>
+                <ul class="menu-list">
+                    <li class="menu-list__item">
+                        <div class="list-item__inner">
+                            <img src="img/menu-dishes/dishesh-1.png" alt="">
+                            <h2 class="menu-list__title">Spaghetti</h2>
+                            <div class="stars-actions">
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                            </div>
+                            <p class="menu-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+                                consequat mi eget auctor aliquam, diam. </p>
+                            <div class="menu-actions">
+                                <p class="menu-actions__price">$12.05</p>
+                                <button class="menu-actions__bnt">Order now</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-list__item">
+                        <div class="list-item__inner">
+                            <img src="img/menu-dishes/dishesh-2.png" alt="">
+                            <h2 class="menu-list__title">Gnocchi</h2>
+                            <div class="stars-actions">
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+
+                            </div>
+                            <p class="menu-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+                                consequat mi eget auctor aliquam, diam. </p>
+                            <div class="menu-actions">
+                                <p class="menu-actions__price">$12.05</p>
+                                <button class="menu-actions__bnt">Order now</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-list__item">
+                        <div class="list-item__inner">
+                            <img src="img/menu-dishes/dishesh-3.png" alt="">
+                            <h2 class="menu-list__title">Rovioli</h2>
+                            <div class="stars-actions">
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                            </div>
+                            <p class="menu-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+                                consequat mi eget auctor aliquam, diam. </p>
+                            <div class="menu-actions">
+                                <p class="menu-actions__price">$12.05</p>
+                                <button class="menu-actions__bnt">Order now</button>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="menu-list__item">
+                        <div class="list-item__inner">
+                            <img src="img/menu-dishes/dishesh-4.png" alt="">
+                            <h2 class="menu-list__title">Penne Alla Vodak</h2>
+                            <div class="stars-actions">
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+
+
+                            </div>
+                            <p class="menu-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+                                consequat mi eget auctor aliquam, diam. </p>
+                            <div class="menu-actions">
+                                <p class="menu-actions__price">$12.05</p>
+                                <button class="menu-actions__bnt">Order now</button>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="menu-list__item">
+                        <div class="list-item__inner">
+                            <img src="img/menu-dishes/dishesh-5.png" alt="">
+                            <h2 class="menu-list__title">Risoto</h2>
+                            <div class="stars-actions">
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+
+                            </div>
+                            <p class="menu-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+                                consequat mi eget auctor aliquam, diam. </p>
+                            <div class="menu-actions">
+                                <p class="menu-actions__price">$12.05</p>
+                                <button class="menu-actions__bnt">Order now</button>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="menu-list__item">
+                        <div class="list-item__inner">
+                            <img src="img/menu-dishes/dishesh-6.png" alt="">
+                            <h2 class="menu-list__title">Splitza Signature</h2>
+                            <div class="stars-actions">
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="img/svg/star-svgrepo-com.svg" alt="">
+                                </div>
+                            </div>
+                            <p class="menu-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+                                consequat mi eget auctor aliquam, diam. </p>
+                            <div class="menu-actions">
+                                <p class="menu-actions__price">$12.05</p>
+                                <button class="menu-actions__bnt">Order now</button>
+                            </div>
+
+                        </div>
+                    </li>
+
+                </ul>
+                <div class="paginations">
+                    <img src="img/menu-pagination.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="reserve" id="reservation">
+            <div class="container">
+                <div class="reserve-inner">
+                    <div class="reserve-inner__dish">
+                        <img src="img/reserve.png" alt="Table">
+                    </div>
+                    <div class="reserve-inner__content">
+                        <h1 class="reserve-inner__title">Let's reserve <br> <span class="reserve-inner__span">a
+                                table</span>
+                        </h1>
+                        <p class="reserve-inner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </p>
+                        <button class="main-btn orange">See our menu</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="chefs" id="">
+            <div class="container">
+                <h1 class="chefs-title">Our greatest chef</h1>
+                <ul class="chefs-list">
+                    <li class="chefs-list__item">
+                        <div class="chefs-list-item__inner">
+                            <img src="img/chefs/chef-1.png" alt="">
+                            <h3 class="chefs-list__title">Betran Komar</h3>
+                            <p class="chefs-list__text">Head chef</p>
+                        </div>
+                    </li>
+                    <li class="chefs-list__item">
+                        <div class="chefs-list-item__inner">
+                            <img src="img/chefs/chef-2.png" alt="">
+                            <h3 class="chefs-list__title">Ferry Sauwi</h3>
+                            <p class="chefs-list__text">Chef</p>
+                        </div>
+                    </li>
+                    <li class="chefs-list__item">
+                        <div class="chefs-list-item__inner">
+                            <img src="img/chefs/chef-3.png" alt="">
+                            <h3 class="chefs-list__title">Iswan Dracho</h3>
+                            <p class="chefs-list__text">Chef</p>
+                        </div>
+                    </li>
+                    <li class="chefs-list__item">
+                        <div class="chefs-list-item__inner">
+                            <img src="img/chefs/chef-2.png" alt="">
+                            <h3 class="chefs-list__title">Ferry Sauwi</h3>
+                            <p class="chefs-list__text">Chef</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="chefs-btn">
+                    <button class="main-btn orange">View all</button>
+                </div>
+            </div>
+        </section>
+        <section class="customers" id="about-us">
+            <div class="container">
+                <h1 class="customers-title">Our customers say</h1>
+                <div class="customers-card">
+                    <div class="customers-card__inner">
+                        <div class="card-inner__photo">
+                            <img src="img/customers-photo.jpg" alt="Girl">
+                        </div>
+                        <h3 class="customers-card__title">Starla Virgoun</h3>
+                        <h4 class="customers-card__job">Financial advisor</h4>
+                        <p class="customers-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Facilisis
+                            ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </p>
+                    </div>
+                </div>
+                <div class="customers-card__people">
+                    <img src="img/customers-people.png" alt="People">
+                </div>
+            </div>
+        </section>
+        <section class="schedule" id="order">
+            <div class="container">
+                <div class="schedule-inner">
+                    <h1 class="schedule-title">We are open from</h1>
+                    <div class="schedule-time">
+                        <h3 class="schedule-time__title">Monday-Sunday</h3>
+                        <p class="schedule-time__text">Launch : Mon-Sun : 11:00am-02:00pm</p>
+                        <p class="schedule-time__text">Dinner : sunday : 04:00pm-08:00pm</p>
+                    </div>
+                    <div class="schedule-actions">
+                        <button class="main-btn orange">Order now</button>
+                        <button class="main-btn reservation">Reservation</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="navModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <nav>
+                    <ul class="modal-conent__list">
+                        <li class="modal-conent__item"><a href="#home">Home</a></li>
+                        <li class="modal-conent__item"><a href="#menu">Menu</a></li>
+                        <li class="modal-conent__item"><a href="#about-us">About us</a></li>
+                        <li class="modal-conent__item"><a href="#order">Order online</a></li>
+                        <li class="modal-conent__item"><a href="#reservation">Reservation</a></li>
+                        <li class="modal-conent__item"><a href="#contact">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </main>
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-inner__info">
+                    <div class="logo__inner">
+                        <img src="img/avatar.png" alt="">
+                        <p class="logo-inner__text">Delizi<span class="logo-inner__span">oso</span></p>
+                    </div>
+                    <p class="inner-info__text">Viverra gravida morbi egestas facilisis tortor netus non duis tempor.
+                    </p>
+                    <div class="info-socials">
+                        <button class="info-socials__btn">
+                            <img src="img/svg/twitter.svg" alt="Twitter">
+                        </button>
+                        <button class="info-socials__btn">
+                            <img src="img/svg/instagram.svg" alt="Instagram">
+                        </button>
+                        <button class="info-socials__btn">
+                            <img src="img/svg/facebook.svg" alt="Facebook">
+                        </button>
+                    </div>
+                </div>
+                <ul class="footer-inner__navigation">
+                    <h3 class="footer-inner__title">Page</h3>
+                    <li class="footer-inner__item">
+                        <a href="#home" class="footer-inner__link">Home</a>
+                    </li>
+                    <li class="footer-inner__item">
+                        <a href="#menu" class="footer-inner__link">Menu</a>
+                    </li>
+                    <li class="footer-inner__item">
+                        <a href="#order" class="footer-inner__link">Order online</a>
+                    </li>
+                    <li class="footer-inner__item">
+                        <a href="#about-us" class="footer-inner__link">Catering</a>
+                    </li>
+                    <li class="footer-inner__item">
+                        <a href="#reservation" class="footer-inner__link">Reservation</a>
+                    </li>
+                </ul>
+                <div class="footer-inner__information">
+                    <h3 class="footer-inner__title">Information</h3>
+                    <a href="#" class="footer-inner__information">About us</a>
+                    <a href="#" class="footer-inner__information">Testimonial</a>
+                    <a href="#" class="footer-inner__information">Event</a>
+                </div>
+                <div class="footer-inner__contacts">
+                    <address class="inner-contacts__addresses">
+                        <h3 class="footer-inner__title">Get in touch</h3>
+                        <a href="#" class="contacts-addresses-address">3247 Johnson Ave, Bronx, NY 10463, Amerika
+                            Serikat</a>
+                        <a href="" class="contacts-addresses-address">delizioso@gmail.com</a>
+                        <a href="" class="contacts-addresses-address">+123 4567 8901</a>
+                    </address>
+                </div>
+            </div>
+            <p class="footer-text-protected">Copyright &copy 2022 Delizioso</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
