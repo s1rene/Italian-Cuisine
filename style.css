@@ -4,7 +4,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/poppins-v22-latin-regular.woff2") format("woff2");
+  src: url("./fonts/poppins-v22-latin-regular.woff2") format("woff2");
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
@@ -14,7 +14,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/poppins-v22-latin-600.woff2") format("woff2");
+  src: url("./fonts/poppins-v22-latin-600.woff2") format("woff2");
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
@@ -24,7 +24,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/poppins-v22-latin-700.woff2") format("woff2");
+  src: url("./fonts/poppins-v22-latin-700.woff2") format("woff2");
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
@@ -44,7 +44,7 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/raleway-v34-latin-regular.woff2") format("woff2");
+  src: url("./fonts/raleway-v34-latin-regular.woff2") format("woff2");
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
